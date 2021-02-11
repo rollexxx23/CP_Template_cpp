@@ -1,8 +1,12 @@
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
 
 #define ll long long 
 #define vl vector <ll> 
+#define pii pair<int,int>
 #define ull unsigned long long
+#define mii map<int,int>
+#define pqb priority_queue<int>
 #define FOR(i,a,b) for(int i=a ; i<b ; i++)
 #define forRL(i,a,b) for(i=a;i>=b;i--)
 #define INF 1e18
@@ -13,8 +17,8 @@
 #define input_ARR(arr,n) for(int i=0 ; i<n ;i++) {cin>>arr[i]}
 #define pb push_back
 #define mp make_pair
-#define F first
-#define S second
+#define ff first
+#define ss second
 #define all(x) x.begin(), x.end()
 #define rall(x) x.rbegin(), x.rend()
 #define clr(x) memset(x, 0, sizeof(x))
@@ -22,7 +26,7 @@
 #define tr(it, x) for(auto it = x.begin(); it != x.end(); it++)
 #define trr(it, x) for(auto it = x.rbegin(); it != x.rend(); it+)
 
-
+using namespace __gnu_pbds;
 using namespace std;
 
 
