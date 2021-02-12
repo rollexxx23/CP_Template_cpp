@@ -87,9 +87,7 @@ cin.tie(0),cout.tie(0);
 srand(chrono::high_resolution_clock::now().time_since_epoch().count());
 int test ;
 cin>>test ;
-FOR(i,5,10){
-    cout<<"fhf" ;
-}
+
 while(test--) {
 solve() ;
 }
