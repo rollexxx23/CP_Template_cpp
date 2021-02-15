@@ -61,6 +61,10 @@ typedef vector<vi> vvi;
 typedef pair<int, int> ii;
 typedef vector<ii> vii;
 mt19937_64 rang(chrono::high_resolution_clock::now().time_since_epoch().count());
+
+typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;
+
+
 int rng(int lim) {
 	uniform_int_distribution<int> uid(0,lim-1);
 	return uid(rang);
@@ -72,7 +76,7 @@ const int N = 3e5, M = N;
 
 
 void solve (){
-    cout<<"HELLO WORLD" ;
+    cout<<"I AM BATMAN " ;
 }
 
 
